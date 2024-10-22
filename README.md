@@ -44,13 +44,13 @@ To run the application locally, follow these steps:
     # check node version
     node -v
     # For Next.js
-    cd path/to/nextjs
+    cd chat-app
     npm install
     # or
     yarn install
 
     # For Node.js backend
-    cd path/to/backend
+    cd chat-app-backend
     npm install
     # or
     yarn install   
@@ -64,18 +64,21 @@ To run the application locally, follow these steps:
 5. **Start the Application**:
     # Start the Next.js Development Server:
     ```bash
+    cd chat-app
     npm run dev
     # or
     yarn dev   
 
-# Start the Node.js Backend Server:  
+   # Start the Node.js Backend Server:  
     ```bash
+    cd chat-app-backend
     npm run dev
     # or
     yarn dev   
 
-# Start the WebSocket Server:
+   # Start the WebSocket Server:
     ```bash
+    cd socket
     npm start
     # or
     yarn start  
@@ -88,9 +91,10 @@ To run the application locally, follow these steps:
 
 7. **Screenshots**.
     # Login Page
-    
+     ![Screenshot 2024-10-22 092919](https://github.com/user-attachments/assets/63d84d5e-381b-433a-b545-c1b145d9d981)
 
     # Main Chat Page
+      ![Screenshot 2024-10-22 092825](https://github.com/user-attachments/assets/b7068052-b7f0-4fb3-ab24-48ac9782dc49)
 
 #Contributing
     Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on the GitHub repository.
