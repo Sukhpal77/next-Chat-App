@@ -18,14 +18,16 @@ ChatApp is a real-time messaging application built with Next.js, React, and Sock
 - **Authentication**: JSON Web Tokens (JWT)
 
 ## Installation
+
 To run the application locally, follow these steps:
 
 1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/your-username/chat-app.git
+
+    ```bash
+    git clone https://github.com/your-username/chat-app.git
 
 2. **Create a new file named .env in the in chat-app-backend**:
-    Replace the values with your own database credentials, a secret key for JWT, your Cloudinary URL, and your Nodemailer email and password.
+
 
     ```bash
     DB_HOST=localhost
@@ -33,23 +35,28 @@ To run the application locally, follow these steps:
     DB_NAME=chat_app
     DB_USER=your_username
     DB_PASSWORD=your_password
-
+         
     SECRET_KEY=your_secret_key
-
+         
     EMAIL_USER=your_nodemailer_email
     EMAIL_PASS=your_nodemailer_password
 
+Replace the values with your own database credentials, a secret key for JWT, your Cloudinary URL, and your Nodemailer email and password.   
+
 3. **Install Dependencies for All Servers and also check node version is updated**:
-    ```bash
-    # check node version
-    node -v
-    # For Next.js
+      ```bash
+      node -v
+    
+**For Next.js**:
+
+    
     cd chat-app
     npm install
     # or
     yarn install
 
-    # For Node.js backend
+**For Node.js backend**
+
     cd chat-app-backend
     npm install
     # or
@@ -62,28 +69,29 @@ To run the application locally, follow these steps:
     mkdir uploads/profile_pictures   
 
 5. **Start the Application**:
-    # Start the Next.js Development Server:
-    ```bash
-    cd chat-app
-    npm run dev
-    # or
-    yarn dev   
+    ### Start the Next.js Development Server:
 
-   # Start the Node.js Backend Server:  
-    ```bash
+       cd chat-app
+       npm run dev
+       # or
+       yarn dev   
+
+### Start the Node.js Backend Server:  
+
     cd chat-app-backend
     npm run dev
     # or
     yarn dev   
 
-   # Start the WebSocket Server:
-    ```bash
+### Start the WebSocket Server:
+  
     cd socket
     npm start
     # or
     yarn start  
 
 6. **Usage**:
+
     Open the application in your web browser: http://localhost:3000
 
     Create an account or log in to an existing one.
@@ -96,14 +104,15 @@ To run the application locally, follow these steps:
     #### Main Chat Page
       ![Screenshot 2024-10-22 092825](https://github.com/user-attachments/assets/b7068052-b7f0-4fb3-ab24-48ac9782dc49)
 
-#Contributing
+## Contributing
 
    Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on the GitHub repository.
 
-#License
+## License
 
    ChatApp is licensed under the MIT License.
 
-#Acknowledgments
+## Acknowledgments
 
    Special thanks to the Next.js, React, and Socket.IO communities for their support and resources.    
+
