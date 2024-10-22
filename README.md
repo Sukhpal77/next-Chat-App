@@ -90,17 +90,20 @@ To run the application locally, follow these steps:
     Add friends and start conversations.    
 
 7. **Screenshots**.
-    # Login Page
+    #### Login Page
      ![Screenshot 2024-10-22 092919](https://github.com/user-attachments/assets/63d84d5e-381b-433a-b545-c1b145d9d981)
 
-    # Main Chat Page
+    #### Main Chat Page
       ![Screenshot 2024-10-22 092825](https://github.com/user-attachments/assets/b7068052-b7f0-4fb3-ab24-48ac9782dc49)
 
 #Contributing
-    Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on the GitHub repository.
+
+   Contributions are welcome! If you'd like to report a bug or suggest a feature, please open an issue on the GitHub repository.
 
 #License
-    ChatApp is licensed under the MIT License.
+
+   ChatApp is licensed under the MIT License.
 
 #Acknowledgments
-    Special thanks to the Next.js, React, and Socket.IO communities for their support and resources.    
+
+   Special thanks to the Next.js, React, and Socket.IO communities for their support and resources.    
